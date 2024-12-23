@@ -26,6 +26,7 @@ setup(
     test_suite='runtests.runtests',
     install_requires = [
         "django>=2.2",
+        "packaging==23.1"
     ],
     packages=find_packages(),
     include_package_data=True,
